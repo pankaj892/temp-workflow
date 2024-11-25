@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: welcome
-        uses: <your-username>/welcome-message-action@v1
+        uses: pankaj892/actions-test@v1
         with:
           name: 'Jane Doe'
