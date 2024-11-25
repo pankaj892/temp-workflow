@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: welcome
-        uses: pankaj892/actions-test@v1
+        uses: pankaj892/actions-test
         with:
           name: 'Jane Doe'
